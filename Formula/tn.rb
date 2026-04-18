@@ -8,13 +8,14 @@ class Tn < Formula
   # repo on every `v*` tag. The url/sha256 fields below are rewritten in-place
   # by the `update-homebrew-tap` job after each release.
 
-  # Intel macOS dropped in v0.5.2: macos-13 runners in the GitHub Actions pool
-  # were saturated/deprecated and the Intel build job stayed queued indefinitely.
-  # Intel Mac users can `cargo install --git https://github.com/parisgroup-ai/tasknotes-cli`.
   on_macos do
     on_arm do
       url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.5.2/tn-0.5.2-darwin-arm64.tar.gz"
       sha256 "13aae344cb0e3c12d939a8ab73299f0d037c20bf70a9b5436eea544338e7bdda"
+    end
+    on_intel do
+      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.0.0/tn-0.0.0-darwin-x86_64.tar.gz"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
   end
 
