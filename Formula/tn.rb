@@ -1,7 +1,7 @@
 class Tn < Formula
   desc "TaskNotes CLI — markdown task files with YAML frontmatter (Obsidian-compatible)"
   homepage "https://github.com/parisgroup-ai/tasknotes-cli"
-  version "0.5.17"
+  version "0.6.0"
   license "MIT"
 
   # Binaries are produced by .github/workflows/release.yml in the tasknotes-cli
@@ -10,19 +10,19 @@ class Tn < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.5.17/tn-0.5.17-darwin-arm64.tar.gz"
-      sha256 "d768059c87b51b64a1e1c8782ee9c2fbf69d82737a3959a7eb53cba2b2b1c7c5"
+      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.6.0/tn-0.6.0-darwin-arm64.tar.gz"
+      sha256 "24d376535312c9ac523c04d11cef56bc51933bae4ca6c48482101f202a474cdb"
     end
     on_intel do
-      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.5.17/tn-0.5.17-darwin-x86_64.tar.gz"
-      sha256 "389da98a19732a3839b93ed0a1e0e02f8b8eac807600112f82a0ea3e96b82344"
+      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.6.0/tn-0.6.0-darwin-x86_64.tar.gz"
+      sha256 "36656fcc0313679acda418f97d5a6e85a240f7d12832c5f8310bb75fe0717c36"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.5.17/tn-0.5.17-linux-x86_64.tar.gz"
-      sha256 "af1495e03c1a06d088c845eba96d4137cd9b0c8c1f509d1c557d7e0f18744fca"
+      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.6.0/tn-0.6.0-linux-x86_64.tar.gz"
+      sha256 "3ad3b51caa150962896f61ef48b86a93d054bacd8ef5980b5d7e6ec58aba551e"
     end
   end
 
