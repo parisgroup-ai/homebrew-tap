@@ -3,7 +3,7 @@ require_relative "../lib/private_release_download_strategy"
 class Tn < Formula
   desc "TaskNotes CLI — markdown task files with YAML frontmatter (Obsidian-compatible)"
   homepage "https://github.com/parisgroup-ai/tasknotes-cli"
-  version "0.28.2"
+  version "0.29.0"
   license "MIT"
 
   # Binaries are produced by .github/workflows/release.yml in the tasknotes-cli
@@ -13,19 +13,19 @@ class Tn < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.28.2/tn-0.28.2-darwin-arm64.tar.gz", using: GitHubPrivateRepositoryReleaseDownloadStrategy
-      sha256 "c524781616862b18755dc6bb31565af9d44e7469a8c7dec2f6cc4a651983f372"
+      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.29.0/tn-0.29.0-darwin-arm64.tar.gz", using: GitHubPrivateRepositoryReleaseDownloadStrategy
+      sha256 "d581fa9ed44a36bdb0791d585dc9c5fa792a9a13d0954a69435508d71068bbc7"
     end
     on_intel do
-      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.28.2/tn-0.28.2-darwin-x86_64.tar.gz", using: GitHubPrivateRepositoryReleaseDownloadStrategy
-      sha256 "ff8480fb3b53aa70bd6b35a59af21755307141abb0e0cd7d5c1757190ea4422f"
+      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.29.0/tn-0.29.0-darwin-x86_64.tar.gz", using: GitHubPrivateRepositoryReleaseDownloadStrategy
+      sha256 "b7a4e7201df990f59016c1b7e0bc70360c060aceb57e1e7abb5d3fc907a2fbff"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.28.2/tn-0.28.2-linux-x86_64.tar.gz", using: GitHubPrivateRepositoryReleaseDownloadStrategy
-      sha256 "65fd80c2dac7de8754a5f93055350d181ef2dc4e71d7a926f8f592dd9d9cbb85"
+      url "https://github.com/parisgroup-ai/tasknotes-cli/releases/download/v0.29.0/tn-0.29.0-linux-x86_64.tar.gz", using: GitHubPrivateRepositoryReleaseDownloadStrategy
+      sha256 "2f1cd3e31f4514dd10a8b2e2d43e84cd3481b4638c30d3e473064effecdec469"
     end
   end
 
